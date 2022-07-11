@@ -91,8 +91,8 @@ def get_times():
 
 if __name__ == '__main__':
     url = 'https://yjspy.cqut.edu.cn/student/default/index'
-    username = '52200313179'
-    password = '52200313179'
+    username = ''
+    password = ''
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches",["enable-logging", 'enable-automation'])
     browser = webdriver.Chrome(options=options)
