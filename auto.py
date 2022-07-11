@@ -40,10 +40,10 @@ def add_new_form(browser):
 # 跳过登录页面
 def skip_login(browser, url):
     browser.get(url)
-    browser.add_cookie({'name': 'FSSBBIl1UgzbN7N443S', 'value': 'NnEQJ0CDxXqReaSxNLZIsoakHhe6Ivx1NENryvg3lRfduNMBMEQOA0GJgx9BjRP6'})
-    browser.add_cookie({'name': 'FSSBBIl1UgzbN7N443T', 'value': '4Ke45LV9xe6GgakNryz3FVHJLHHJOjAE0TgDLKzgVUff_zEGgDq_WQWQhBoG4faHVG36ezGgccmvbT_MdPWOc.ANsajnrg4H4E37FVXsYfa1QUWCi_ERwhzSjSpIU_zwH6thmu1BxgQF5w20EgwNy8JBXxcYMSdEbqw9rXMOe1ryzXF2ZshJKxFci7unbLhr1ikYiOV4O7EoqLY.epf6wkT0D2Eemux.UHTPy2zXHm.JeoMtj2qf7fiRw5QNY1CEsPcTtX5.6ajC1G1PA.njrsUAEYIF.QgHC0BPf7cTwu4g9PFO0PWJGVhu0s9m2A_fQO.6m.Miu3Y77z0whS3QRxePxQzJq05dK8KAl4g736KTHRPpHOnsedPU7vvmkuI9m5Z9'})
-    browser.add_cookie({'name': 'ASP.NET_SessionId', 'value': '0n1u3tlbbhnk1uvgmurks2vh'})
-    browser.add_cookie({'name': '__SINDEXCOOKIE__', 'value': 'd8a459eb2d67b5fcb03b87f33cec9321'})
+    browser.add_cookie({'name': 'FSSBBIl1UgzbN7N443S', 'value': 'NnEQJ0CDxXqReaSxNLZIsoakHhe6Ivx1NENryvg3lRfduNMBMEQOA0GJgx******'})
+    browser.add_cookie({'name': 'FSSBBIl1UgzbN7N443T', 'value': '******V9xe6GgakNryz3FVHJLHHJOjAE0TgDLKzgVUff_zEGgDq_WQWQhBoG4faHVG36ezGgccmvbT_MdPWOc.ANsajnrg4H4E37FVXsYfa1QUWCi_ERwhzSjSpIU_zwH6thmu1BxgQF5w20EgwNy8JBXxcYMSdEbqw9rXMOe1ryzXF2ZshJKxFci7unbLhr1ikYiOV4O7EoqLY.epf6wkT0D2Eemux.UHTPy2zXHm.JeoMtj2qf7fiRw5QNY1CEsPcTtX5.6ajC1G1PA.njrsUAEYIF.QgHC0BPf7cTwu4g9PFO0PWJGVhu0s9m2A_fQO.6m.Miu3Y77z0whS3QRxePxQzJq05dK8KAl4g736KTHRPpHOnsedPU7vvmkuI9m5Z9'})
+    browser.add_cookie({'name': 'ASP.NET_SessionId', 'value': '******lbbhnk1uvgmurks2vh'})
+    browser.add_cookie({'name': '__SINDEXCOOKIE__', 'value': '******b2d67b5fcb03b87f33cec9321'})
 
     browser.refresh()
 
